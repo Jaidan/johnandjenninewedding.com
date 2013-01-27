@@ -1,0 +1,68 @@
+* {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.content-wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+#header {
+    height: 88px;
+    background: url("../img/header-bg.gif") repeat-x;
+}
+#header ul {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 13px 0 0 0;
+}
+#header ul li {
+    float: left;
+    list-style-type: none;
+    width: 140px;
+    text-align: center;
+    
+}
+#header ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #005384;
+    font-weight: bold;
+}
+#header ul li a:hover {
+    text-decoration: underline;
+}
+#center-badge {
+    position: relative;
+    top: -13px;
+}
+
+#announcement {
+    height: 709px;
+    background: #edece7;
+}
+#announcement-banner {
+    margin: 107px 0 25px 0;
+}
+#details {
+    background: #005080;
+    height: 802px;
+}
+#rsvp {
+    background: #edece7;
+    height: 797px;
+}
+#proposal {
+    background: #a0b300;
+    height: 710px;
+}
+#theparty {
+    background: #005080;
+    height:  795px;
+}
+#registry {
+    background: #edece7;
+    height: 408px;
+}
+#footer {
+    background: #a0b300;
+    height: 90px;
