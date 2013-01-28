@@ -159,6 +159,8 @@
     height: 150px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     line-height: 50px;
+    color: #636363;
+    font-size: 14pt;
     resize: none;
 }
 #rsvp form input[type="text"],
@@ -166,8 +168,6 @@
     border: none;
     width: 348px;
     padding: 5px 0 0 10px;
-    color: #636363;
-    font-size: 14pt;
     background: url("../img/formfield-bg.gif");
 }
 #rsvp form input[type="text"] {
