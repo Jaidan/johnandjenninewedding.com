@@ -72,7 +72,15 @@
     top: -13px;
 }
 .main-content-block {
-    padding: 54px 0 0 0;
+    padding: 25px 0 0 0;
+    position: relative;
+}
+.downlink {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    margin-left: -18px;
+    display: block;
 }
 #announcement {
     height: 655px;
