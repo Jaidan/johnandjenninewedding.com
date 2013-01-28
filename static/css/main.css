@@ -1,3 +1,39 @@
+/* @license
+ * MyFonts Webfont Build ID 2461563, 2013-01-27T19:50:11-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Giacinta Ornate by Okaycat
+ * URL: http://www.myfonts.com/fonts/okaycat/giacinta/ornate/
+ * Copyright: Copyright (c) 2008 by Luke William Turvey, Okaycat. All rights reserved.
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2461563
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/258f7b");
+
+  
+@font-face {
+    font-family: 'Giacinta-Ornate';
+    src: url('../fonts/GiacintaOrnate.eot');
+    src: url('../fonts/GiacintaOrnate.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GiacintaOrnate.woff') format('woff'),
+        url('../fonts/GiacintaOrnate.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* Begin css */
+
 * {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
@@ -35,21 +71,142 @@
     position: relative;
     top: -13px;
 }
-
+.main-content-block {
+    padding: 54px 0 0 0;
+}
 #announcement {
-    height: 709px;
+    height: 655px;
     background: #edece7;
 }
 #announcement-banner {
-    margin: 107px 0 25px 0;
+    margin: 53px 0 25px 0;
 }
 #details {
     background: #005080;
-    height: 802px;
+    height: 748px;
+}
+#details h1 {
+    background: url("../img/details-header.png") no-repeat;
+    height: 39px;
+    width: 192px;
+    margin: 0 auto 103px;
+}
+#rsvp h1 {
+    background: url("../img/RSVP-header.png") no-repeat;
+    height: 41px;
+    width: 120px;
+    margin: 0 auto 11px;
+}
+.details-block h2 {
+    width: 255px;
+    height: 160px;
+    margin: 0 0 60px 0;
+}
+#details-what-block h2 {
+    background: url("../img/what-header.png") no-repeat;
+}
+#details-when-block h2 {
+    background: url("../img/when-header.png") no-repeat;
+}
+#details-where-block h2 {
+    background: url("../img/where-header.png") no-repeat;
 }
 #rsvp {
     background: #edece7;
-    height: 797px;
+    height: 743px;
+    color: #005180;
+}
+#rsvp form li.field-wrapper {
+    clear: both;
+    margin-bottom: 21px;
+    overflow: auto;
+}
+#rsvp form ul {
+    margin-top: 10px;
+    overflow: auto;
+}
+#rsvp form label,
+#rsvp form fieldset legend
+{
+    font-family: "Giacinta-Ornate", serif;
+    text-transform: uppercase;
+    float: left;
+    color: #005180;
+    font-size: 15pt;
+    letter-spacing: -1px;
+    width: 140px;
+    text-align: center;
+    padding: 24px 0 0 0;
+}
+#rsvp form input {
+    font-family: "Giacinta-Ornate", serif;
+    color: #a5b800;
+    font-size: 22pt;
+}
+#rsvp form input[type="submit"] {
+    color: #e7e6e1;
+    border: none;
+    background: #9eb100;
+    width: 215px;
+    border-radius: 6px;
+    cursor: pointer;
+    line-height: 66px;
+    height: 66px;
+    font-size: 27pt;
+    text-transform: uppercase
+}
+#rsvp form textarea {
+    height: 150px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 50px;
+    resize: none;
+}
+#rsvp form input[type="text"],
+#rsvp form textarea {
+    border: none;
+    width: 348px;
+    padding: 5px 0 0 10px;
+    color: #636363;
+    font-size: 14pt;
+    background: url("../img/formfield-bg.gif");
+}
+#rsvp form input[type="text"] {
+    height: 45px;
+    line-height: 45px;
+}
+#rsvp form li.field-wrapper > div {
+    float: left;
+}
+#rsvp form li#foli104 {
+    margin-bottom: 15px;
+}
+#rsvp form li.buttons > div {
+    float: right;
+    margin: 0 43px 0 0;
+}
+#rsvp-instructions {
+    font-style: italic;
+    font-size: 13pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+#rsvp-instructions em {
+    color: #a5b800;
+    font-style: normal;
+}
+#rsvp-thankyou {
+    color: #a5b800;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+#form2 {
+    background: url("../img/rsvp-bg.png") no-repeat;
+    width: 533px;
+    height: 512px;
+    margin: 0 auto;
+    padding: 30px 30px 15px 75px;
 }
 #proposal {
     background: #a0b300;
@@ -66,3 +223,51 @@
 #footer {
     background: #a0b300;
     height: 90px;
+}
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.content-block {
+    float: left;
+}
+.details-block {
+    padding: 0 36px;
+    border-right: 2px solid #1f3962;
+}
+.details-block p {
+    text-align: center;
+    color: #e7e6e1;
+    font-weight: bold;
+    font-size: 18pt;
+    line-height: 29px
+}
+#details-when-block {
+    padding-left: 32px;
+    padding-right: 52px;
+}
+#details-where-block {
+    padding-right: 0;
+    border-right: none;
+}
+#map-link-container {
+    clear: both;
+    text-align: right;
+    padding: 49px 35px 0 0;
+}
+#map-link {
+    font-style: italic;
+    font-weight: bold;
+    color: #a5b800;
+    font-size: 24pt;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#map-link:hover {
+    text-decoration: underline;
+}
+.hide {
+    display: none !important;
+}

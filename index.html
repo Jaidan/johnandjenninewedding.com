@@ -3,7 +3,8 @@
 <head>
   <title>Jennine Chesler & John Williams Wedding | Apr 26, 2013 | The Wright House</title>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <link href="//yui.yahooapis.com/2.9.0/build/reset/reset-min.css" rel="stylesheet" type="text/css">
+  <link href="//yui.yahooapis.com/2.9.0/build/reset/reset-min.css" rel="stylesheet" type="text/css" />
+  <link href="static/css/fonts.css" rel=stylesheet" type="text/css" media="all" />
   <link href="static/css/main.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
@@ -18,47 +19,102 @@
       <li><a href="#registry">Registry</a></li>
     </ul>
   </div>
-  <div id="announcement">
+  <div id="announcement" class="main-content-block">
     <div class="content-wrapper">
       <img id="announcement-banner" src="static/img/announcement-banner.png" alt="On the 26th of April 2013 Jennine & John are finally getting married"/>
       <a href="#details" class="downlink"><img class="downlink" /></a>
     </div>
   </div>
-  <div id="details">
+  <div id="details" class="main-content-block">
     <div class="content-wrapper">
-      <h1>Details</h1>
+      <h1 class="hide-text">Details</h1>
       <div class="content-block details-block" id="details-when-block">
-        <h2>When</h2>
+        <h2 class="hide-text">When</h2>
         <p>Friday<br />April 26th, 2013</br>5:00 PM</p>
       </div>
       <div class="content-block details-block" id="details-what-block">
-        <h2>What</h2>
+        <h2 class="hide-text">What</h2>
         <p>The Wedding of<br />Jennine Chesler &</br>John Williams</p>
       </div>
       <div class="content-block details-block" id="details-where-block">
-        <h2>Where</h2>
+        <h2 class="hide-text">Where</h2>
         <p>The Wright House<br />646 West University Dr.</br>Mesa, Arizona 85201</p>
       </div>
-      <a href="#" id="map-link">Map >></a>
+      <div id="map-link-container">
+        <a href="#" id="map-link">Map &raquo;</a>
+      </div>
       <a href="#rsvp" class="downlink"><img class="downlink" /></a>
     </div>
   </div>
-  <div id="rsvp">
+  <div id="rsvp" class="main-content-block">
     <div class="content-wrapper">
-      <h2>RSVP</h2>
-      <p>Please response by March 10th for <em>each</em> person attending...</p>
-      <form>
-      </form>
+      <h1 class="hide-text">RSVP</h1>
+      <p id="rsvp-instructions">Please respond by March 10th for <em>each</em> person attending...</p>
+      <form id="form2" name="form2" class="wufoo topLabel page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+action="https://jaidan.wufoo.com/forms/m7x3s5/#public">
+        <p id="rsvp-thankyou">Thank You! Anyone else you need to respond for?</p>
+        <ul>
+          <li id="foli1" class="notranslate field-wrapper">
+            <label class="desc" id="title1" for="Field1">First Name</label>
+            <div>
+              <input id="Field1" name="Field1" type="text" class="field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required />
+            </div>
+          </li>
+          <li id="foli2" class="notranslate field-wrapper">
+            <label class="desc" id="title2" for="Field2">Last Name</label>
+            <div>
+              <input id="Field2" name="Field2" type="text" class="field text medium" value="" maxlength="255" tabindex="2" onkeyup="" required />
+            </div>
+          </li>
+          <li id="foli103" class="notranslate field-wrapper">
+            <fieldset>
+              <![if !IE | (gte IE 8)]>
+                <legend id="title103" class="desc">Attending?</legend>
+              <![endif]>
+              <!--[if lt IE 8]>
+                <label id="title103" class="desc">Attending?</label>
+              <![endif]-->
+              <div>
+                <input id="radioDefault_103" name="Field103" type="hidden" value="" />
+                <span>
+                  <input id="Field103_0" name="Field103" type="radio" class="field radio" value="Yes" tabindex="3" checked="checked" required />
+                  <label class="choice" for="Field103_0" >Yes</label>
+                </span>
+                <span>
+                  <input id="Field103_1" name="Field103" type="radio" class="field radio" value="No" tabindex="4" required />
+                  <label class="choice" for="Field103_1" >No</label>
+                </span>
+              </div>
+            </fieldset>
+          </li>
+          <li id="foli104" class="notranslate field-wrapper">
+            <label class="desc" id="title104" for="Field104">Comments</label>
+            <div>
+              <textarea id="Field104" name="Field104" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="5" onkeyup=""></textarea>
+            </div>
+          </li>
+          <li class="buttons">
+            <div>
+              <input id="saveForm" name="saveForm" class="btTxt submit" type="submit" value="Submit" />
+            </div>
+          </li>
+          <li class="hide">
+            <label for="comment">Do Not Fill This Out</label>
+            <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+            <input type="hidden" id="idstamp" name="idstamp" value="rb2f7baWp3+ROIzChWYmAz0Qeku8OpEZdMtukz2wHho=" />
+          </li>
+        </ul>
+      </form> 
       <a href="#proposal" class="downlink"><img class="downlink" /></a>
     </div>
   </div>
-  <div id="proposal">
+  <div id="proposal" class="main-content-block">
     <div class="content-wrapper">
       <p>Big text goes here</p>
       <a href="#theparty" class="downlink"><img class="downlink" /></a>
     </div>
   </div>
-  <div id="theparty">
+  <div id="theparty" class="main-content-block">
     <div class="content-wrapper">
       <h1>The Wedding Party</h1>
       <div class="content-block party-block" id="party-bride-block">
@@ -89,7 +145,7 @@
       <a href="#registry" class="downlink"><img class="downlink" /></a>
     </div>
   </div>
-  <div id="registry">
+  <div id="registry" class="main-content-block">
     <div class="content-wrapper">
       <h1>Registry</h1>
       <div>
@@ -108,5 +164,6 @@
       <p>And they lived Happily, Ever After...</p>
     </div>
   </div>
+  <script src="static/js/wufoo.js"></script>
 </body>
 </html>
