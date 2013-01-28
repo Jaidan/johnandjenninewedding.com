@@ -220,9 +220,22 @@
     background: #a0b300;
     height: 710px;
 }
-#theparty {
+.main-content-block#theparty {
     background: #005080;
-    height:  795px;
+    height:  748px;
+    padding-top: 47px;
+}
+#theparty h1 {
+    background: url("../img/theparty-header.png") no-repeat;
+    height: 56px;
+    width: 509px;
+    margin: 0 auto 73px;
+}
+#theparty-content {
+    background: url("../img/theparty.gif");
+    width: 863px;
+    height: 435px;
+    margin-left: 47px;
 }
 #registry {
     background: #edece7;
