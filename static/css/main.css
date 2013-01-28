@@ -232,6 +232,14 @@
     background: #a0b300;
     height: 90px;
 }
+#footer p {
+    font-family: "Giacinta-Ornate", serif;
+    color: #005180;
+    line-height: 90px;
+    text-align: center;
+    font-size: 19pt;
+    letter-spacing: 1px;
+}
 .hide-text {
     text-indent: 100%;
     white-space: nowrap;
