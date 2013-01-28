@@ -240,6 +240,38 @@
 #registry {
     background: #edece7;
     height: 408px;
+    padding-top: 52px;
+}
+#registry h1 {
+    background: url("../img/registry-header.png") no-repeat;
+    height: 52px;
+    width: 214px;
+    margin: 0 auto 65px;
+}
+#registry-list {
+    overflow: auto;
+    margin: 0 auto;
+    width: 838px;
+}
+#registry-list li {
+    float: left;
+    padding: 0 28px;
+    border-right: 1px solid #005080;
+}
+li#gen-block {
+    padding-left: 0;
+    font-style: italic;
+    font-size: 18pt;
+    line-height: 30px;
+    color: #005080;
+    text-align: right;
+}
+li#macy-block {
+    padding-left: 18px;
+}
+li#bbb-block {
+    padding-right: 0;
+    border-right: none;
 }
 #footer {
     background: #a0b300;
