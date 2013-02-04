@@ -11,6 +11,7 @@ $(document).ready(function() {
             $('#rsvp-thankyou').fadeTo(500, 100).delay(3000)
                 .fadeTo(500, 0);
             $(this).ajaxSubmit();
+            $(this).resetForm();
         }
         return false;
     });
