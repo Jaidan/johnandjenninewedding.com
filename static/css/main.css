@@ -151,6 +151,32 @@
     color: #a5b800;
     font-size: 22pt;
 }
+#rsvp form input[type="radio"] {
+    display: none;
+}
+#attending-choice {
+    position: relative;
+    top: 5px;
+}
+#rsvp form  #attending-choice .attending-seperator,
+#rsvp form  #attending-choice label {
+    color: #b7b7b7;
+    float: left;
+    font-family: "Giacinta-Ornate", serif;
+    font-size: 22pt;
+    padding-top: 0;
+    width: auto;
+    margin-right: 14px;
+    display: block;
+    padding-top: 11px;
+}
+#foli103 {
+    overflow: visible !important;
+}
+#rsvp form #attending-choice label.attending-option.selected {
+    color: #a5b800;
+    background: url("../img/formfield-bg-blue.gif");
+}
 #rsvp form input[type="submit"] {
     color: #e7e6e1;
     border: none;
@@ -208,6 +234,7 @@
     font-style: italic;
     font-weight: bold;
     text-align: center;
+    opacity: 0;
 }
 #form2 {
     background: url("../img/rsvp-bg.png") no-repeat;
@@ -218,7 +245,35 @@
 }
 #proposal {
     background: #a0b300;
-    height: 710px;
+    height: 1598px;
+}
+#proposal h1 {
+    background: url("../img/theproposal-header.png") no-repeat;
+    height: 35px;
+    width: 353px;
+    margin: 27px auto 45px;
+}
+#proposal-story {
+    background: url("../img/proposal-bg.png") no-repeat;
+    width: 795px;
+    height: 1289px;
+    color: #005180;
+    padding: 55px 76px 0 84px;
+    margin: 0 auto;
+}
+#proposal-story h2 {
+    text-align: center;
+    font-family: "Giacinta-Ornate", serif;
+    font-size: 26pt;
+    text-transform: uppercase;
+    background: url("../img/proposal-header-bg.png") no-repeat 0 50%;
+    margin-bottom: 12px;
+    padding-top: 3px;
+}
+#proposal-story p {
+    font-size: 14pt;
+    line-height: 22px;
+    margin-bottom: 23px;
 }
 .main-content-block#theparty {
     background: #005080;

@@ -74,15 +74,18 @@ action="https://jaidan.wufoo.com/forms/m7x3s5/#public">
               <!--[if lt IE 8]>
                 <label id="title103" class="desc">Attending?</label>
               <![endif]-->
-              <div>
+              <div id="attending-choice">
                 <input id="radioDefault_103" name="Field103" type="hidden" value="" />
                 <span>
                   <input id="Field103_0" name="Field103" type="radio" class="field radio" value="Yes" tabindex="3" checked="checked" required />
-                  <label class="choice" for="Field103_0" >Yes</label>
+                  <label class="choice attending-option" for="Field103_0" >Yes</label>
+                </span>
+                <span class="attending-seperator">
+                  /
                 </span>
                 <span>
                   <input id="Field103_1" name="Field103" type="radio" class="field radio" value="No" tabindex="4" required />
-                  <label class="choice" for="Field103_1" >No</label>
+                  <label class="choice attending-option" for="Field103_1" >No</label>
                 </span>
               </div>
             </fieldset>
@@ -110,7 +113,19 @@ action="https://jaidan.wufoo.com/forms/m7x3s5/#public">
   </div>
   <div id="proposal" class="main-content-block">
     <div class="content-wrapper">
-      <p>Big text goes here</p>
+      <h1 class="hide-text">The Proposal</h1>
+      <div id="proposal-story">
+        <h2>Prologue</h2>
+        <p>The labor day three day weekend had started fairly normally in Klamath Falls, Oregon.  John had said he needed new clothes and wanted to get out of town for a day so we planned to make the drive to the nearby town of Medford to take advantage of some of the labor day day sales.   The tip off that the day was going to be out of the ordinary should have been John saying he “wanted” to go shopping.</p>
+        <p>About half way through the shopping excursion John excused himself to use the restroom. After 15 minutes with no John sighting I moved onto the next store and called John's phone intending to leave him a message as to my next target.  I instead heard his phone ring to my left and turned to see John coming out of a jewelry store. I asked the obvious suspicious toned question of “what were you doing?” and received a shrug accompanied by the nonchalant response of “stopped by to ask a few questions on the way back from the restroom.”</p>
+        <h2>The Creeper</h2>
+        <p>fter assessing John's response I decided it wasn't worth continuing the interrogation so we moved onto Victoria Secret.  If you have ever observed men in Victoria Secret, they are usually trailing behind a female trying not to look too interested and it isn't often you see a male without a female.  While I was browsing, with John playing the typical male companion role, I noticed a tall, gangly man in a dress shirt and slacks following somewhat closely to John.  As we weaved through the store the man kept following always coming to a stop overly close to John. Paranoia kicked in and I grabbed John to leave.  As we passed by the creepy man who had suddenly taken a great interest in a lingerie display, to leave a store attendant confronted the man asking him if he needed assistance to which he curtly replied, “No, I'm just here on business.”</p>
+        <p>The shopping trip ended quickly after the Victoria Secret incident.  It was dark by the time we arrived back in Klamath Falls.  John suggested we drive to the park by Klamath Lake and spend the evening star-gazing.</p>
+        <h2>The Question</h2>
+        <p>We arrived at the park, and found it was completely empty aside from one other car parked in the back corner of the parking lot with fogged windows.  A few minutes into star gazing a police car with his lights flashing showed up and proceeded to knock on the parked car's fogged up windows to question the occupants.  It became obvious that teenage occupants were out for an evening of “parking” and that the police man had decided to call the teenager's parents rather than simply shooing them off.  About a half an hour into the police man arriving, his lights were still flashing and it had started to get cold.  John gave a  huff of annoyance rolled to face me and proposed amid the quiet still lake, the twinkling stars, and the flashing blue and red lights of a police car.</p>
+        <h2>Epilogue</h2>
+        <p>It turns out that the entire trip to Medford was so that John could pick up the ring he had shipped from Arizona.  The creepy man in the Victoria Secret was an employee of the Jewelery store who was trying to inconspicuously give John the last of the paperwork for the ring that I had unknowingly interrupted. Lastly, the star gazing was an attempt at a  romantic proposal setting.  Overall, the day turned into what I hope will be the start of many more perfect, “oh well that's life” moments.</p>
+      </div>
       <a href="#theparty" class="downlink"><img src="static/img/downarrow-white.png" class="downlink" /></a>
     </div>
   </div>
@@ -168,6 +183,9 @@ action="https://jaidan.wufoo.com/forms/m7x3s5/#public">
       <p>And they lived Happily, Ever After...</p>
     </div>
   </div>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
   <script src="static/js/wufoo.js"></script>
+  <script src="static/js/jquery.form.js"></script>
+  <script src="static/js/jjwedding.js"></script>
 </body>
 </html>

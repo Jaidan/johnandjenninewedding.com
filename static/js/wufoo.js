@@ -5,7 +5,6 @@ var highlight_array = new Array();
 function initForm(){
 	initializeFocus();
 	var activeForm = document.getElementsByTagName('form')[0];
-	addEvent(activeForm, 'submit', disableSubmitButton);
 	ifInstructs();
 	showRangeCounters();
 }
