@@ -206,6 +206,7 @@
     height: 66px;
     font-size: 27pt;
     text-transform: uppercase
+    -webkit-appearance: none;
 }
 #rsvp form textarea {
     height: 150px;
